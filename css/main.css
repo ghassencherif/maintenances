@@ -1,0 +1,79 @@
+.spinner_zone,
+.spinner_equipement,
+.spinner_bureau{
+    width: 25px;
+    position: absolute;
+    right: 35px;
+    top:35px;
+}
+.label_degres{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.btn_pause,
+.btn_reprise{
+    margin-bottom: 15px;
+}
+.bloc_site{
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+}
+.percent_site{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 22px;
+    opacity: 0.7;
+}
+.spinner_dispo_equip{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.spinner_tmr{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.btn-print{
+    position: absolute;
+    top:-5px;
+    right: -5px;
+}
+.cadre_site{
+    border: 1px solid #000000;
+    margin-bottom: 20px;
+    background-color: #f9f5fd;
+}
+.cadre_site p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+.cadre_zone{
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    background-color: #f7fffb;
+}
+.cadre_zone p{
+    font-size: 16px;
+}
+.cadre_equipe{
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    text-align: center;
+    background-color: #fff6f6;
+}
+.cadre_equipe p{
+    font-size: 12px;
+}
+.cadre_equipe img{
+    width: 100px;
+    margin-bottom: 5px;
+}
+.cadre_site p,
+.cadre_zone p,
+.cadre_equipe p{
+    margin-bottom: 0px;
+}
