@@ -1,4 +1,12 @@
 <?php
+
+
+
+ob_start();
+
+// your PHP / HTML code here
+
+
 require_once('db.php');
 require_once('includes/verif_session.php');
 require_once('includes/function.php');
@@ -513,3 +521,7 @@ if ($user_connect['fonction'] != 'administrateur') {
 </script>
 </body>
 </html>
+
+<?php file_put_contents('where/to/save/generated.html', ob_get_clean());
+
+?>
